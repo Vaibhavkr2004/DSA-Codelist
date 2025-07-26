@@ -7,7 +7,8 @@ public class reverseArray {
 
         System.out.print("Enter array size: ");
         int n = sc.nextInt();
-        int[] arr = new int[n];
+        int[] arr ;
+        arr = new int[n];
 
         System.out.println("Enter array elements:");
         for (int i = 0; i < n; i++) {
